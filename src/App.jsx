@@ -565,7 +565,7 @@ function App() {
       const token = sessionStorage.getItem("token");
 
       const response = await fetch(
-        `http://https://chatbox-djaw.onrender.com/api/messages/${otherUser._id}`,
+        `https://chatbox-djaw.onrender.com/api/messages/${otherUser._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

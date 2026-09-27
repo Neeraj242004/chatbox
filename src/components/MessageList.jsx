@@ -12,7 +12,7 @@ function MessageList({
   typingUser,
   onReact,
 }) {
-  const FILE_BASE_URL = "http://https://chatbox-djaw.onrender.com";
+  const FILE_BASE_URL = "https://chatbox-djaw.onrender.com";
 
   const EMOJIS = ["❤️", "😂", "😍", "😮", "😢", "👍"];
 
