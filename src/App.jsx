@@ -148,7 +148,7 @@ function App() {
 
       const endpoint = isRegister
         ? "http://https://chatbox-djaw.onrender.com/api/auth/register"
-        : "http://https://chatbox-djaw.onrender.com/api/auth/login";
+        : "https://chatbox-djaw.onrender.com/api/auth/login";
 
       const body = isRegister
         ? {
