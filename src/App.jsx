@@ -80,7 +80,7 @@ function App() {
         }
 
         const response = await fetch(
-          "http://https://chatbox-djaw.onrender.com/api/auth/profile",
+          "https://chatbox-djaw.onrender.com/api/auth/profile",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -147,7 +147,7 @@ function App() {
       }
 
       const endpoint = isRegister
-        ? "http://https://chatbox-djaw.onrender.com/api/auth/register"
+        ? "https://chatbox-djaw.onrender.com/api/auth/register"
         : "https://chatbox-djaw.onrender.com/api/auth/login";
 
       const body = isRegister
@@ -279,7 +279,7 @@ function App() {
         const token = sessionStorage.getItem("token");
 
         const usersResponse = await fetch(
-          "http://https://chatbox-djaw.onrender.com/api/auth/users",
+          "https://chatbox-djaw.onrender.com/api/auth/users",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -295,7 +295,7 @@ function App() {
         }
 
         const summaryResponse = await fetch(
-          "http://https://chatbox-djaw.onrender.com/api/messages/summary",
+          "https://chatbox-djaw.onrender.com/api/messages/summary",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -655,7 +655,7 @@ function App() {
       }
 
       const response = await fetch(
-        "http://https://chatbox-djaw.onrender.com/api/messages/send",
+        "https://chatbox-djaw.onrender.com/api/messages/send",
         {
           method: "POST",
           headers: {
@@ -748,7 +748,7 @@ function App() {
       const token = sessionStorage.getItem("token");
 
       const response = await fetch(
-        `http://https://chatbox-djaw.onrender.com/api/messages/${editingMessageId}`,
+        `https://chatbox-djaw.onrender.com/api/messages/${editingMessageId}`,
         {
           method: "PUT",
           headers: {
@@ -816,7 +816,7 @@ function App() {
       const token = sessionStorage.getItem("token");
 
       const response = await fetch(
-        `http://https://chatbox-djaw.onrender.com/api/messages/${messageId}`,
+        `https://chatbox-djaw.onrender.com/api/messages/${messageId}`,
         {
           method: "DELETE",
           headers: {
@@ -871,7 +871,7 @@ function App() {
       const token = sessionStorage.getItem("token");
 
       const response = await fetch(
-        `http://https://chatbox-djaw.onrender.com/api/messages/${messageId}/reactions`,
+        `https://chatbox-djaw.onrender.com/api/messages/${messageId}/reactions`,
         {
           method: "PUT",
           headers: {
@@ -930,7 +930,7 @@ function App() {
     const token = sessionStorage.getItem("token");
 
     const response = await fetch(
-      "http://https://chatbox-djaw.onrender.com/api/auth/profile",
+      "https://chatbox-djaw.onrender.com/api/auth/profile",
       {
         method: "PUT",
         headers: {
